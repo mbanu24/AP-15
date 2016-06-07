@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+// Membuat kelas MOTOR
+struct MOTOR {
+    char* merk;
+    long tahun;
+    char* nopolisi;
+    char* warna;
+public:
+    void SetMotor() {
+        merk = "Honda GL Pro";
+        tahun = 1997;
+        nopolisi = "G 5879 BF";
+        warna = "Hitam";
+    }
+    void ShowInfoMotor() {
+        cout<<"Merk : "<<merk<<endl;
+        cout<<"Tahun : "<<tahun<<endl;
+        cout<<"No Polisi : "<<nopolisi<<endl;
+        cout<<"Warna : "<<warna<<endl;
+    }
+};
+
+// Fungsi utama 
+int main() {
+    
+    //Melakukan instansiasi terhadap kelas MOTOR 
+    MOTOR M;
+    
+    M.SetMotor();
+    M.ShowInfoMotor();
+    
+    return 0;
+}
