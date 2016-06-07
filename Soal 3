@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+struct laporan {
+    int nim;
+    string nama;
+    int notelp;
+    double tugas;
+    double uts;
+    double uas;
+    double quiz;
+}mahasiswa;
+void infomahasiswa() {
+    cout<<"NIM : "<<mahasiswa.nim<<endl;
+    cout<<"Nama : "<<mahasiswa.nama<<endl;
+    cout<<"No Telp : "<<mahasiswa.notelp<<endl;
+    cout<<"Tugas : "<<mahasiswa.tugas<<endl;
+    cout<<"Nilai UTS : "<<mahasiswa.uts<<endl;
+    cout<<"Nilai UAS : "<<mahasiswa.uas<<endl;
+    cout<<"Nilai Quiz : "<<mahasiswa.quiz<<endl;
+};
+int main() {
+    int nilai_akhir;
+cout<<"NIM : "; cin>>mahasiwa.nim;
+cout<<"Nama : "; cin>>mahasiwa.nama;
+cout<<"No Telp : "; cin>>mahasiwa.notelp;
+cout<<"Tugas : "; cin>>mahasiwa.tugas;
+cout<<"Nilai UTS : "; cin>>mahasiwa.uts;
+cout<<"Nilai UAS : "; cin>>mahasiwa.uas;
+cout<<"Nilai Quiz : "; cin>>mahasiwa.quiz;
+laporan M;
+infomahasiswa();
+nilai_akhir=(mahasiswa.uas*0.25)+(mahasiswa.uts*0.25)+(mahasiswa.tugas*0.3)+(mahasiswa.quiz*0.2)
+cout<<"Nilai akhir = "<<nilai_akhir;
+return 0;
